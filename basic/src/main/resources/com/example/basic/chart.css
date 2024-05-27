@@ -1,0 +1,12 @@
+.axix{
+    -fx-stroke: #92d9dc;
+    -fx-fill: #185b55;
+    -fx-font-size: 24;
+    -fx-tick-label-fill: #2e967a;
+
+}
+/*.data0.chart-pie { -fx-pie-color: #013834; }*/
+/*.data1.chart-pie { -fx-pie-color: #041336; }*/
+/*.data2.chart-pie { -fx-pie-color: #464242; }*/
+/*.data3.chart-pie { -fx-pie-color: #2a0601; }*/
+.chart-legend { -fx-background-color: #ad5d35; }

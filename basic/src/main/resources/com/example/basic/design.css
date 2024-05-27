@@ -1,0 +1,106 @@
+.textfield{
+    -fx-background-color:linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius:4px;
+    -fx-border-color: linear-gradient(to bottom right, #127bc0, #07209b);
+    -fx-border-radius: 4px;
+    -fx-border-width:1px;
+}
+.textfield:focused{
+    -fx-background-color: #fff;
+    -fx-border-width: 2px;
+}
+
+.import-btn{
+    -fx-background-color: transparent;
+    -fx-text-fill: red;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-cursor:hand;
+}
+
+.add-btn{
+    -fx-background-color: #3b754d;
+    -fx-background-radius: 8px;
+    -fx-text-fill:#fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+
+.add-btn:hover{
+    -fx-background-color: #459d5e;
+}
+
+.update-btn{
+    -fx-background-color: #243e6b;
+    -fx-background-radius: 8px;
+    -fx-text-fill:#fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+
+.update-btn:hover{
+    -fx-background-color: #4969a1;
+}
+
+.reset-btn{
+    -fx-background-color: #7f417a;
+    -fx-background-radius: 8px;
+    -fx-text-fill:#fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+
+.reset-btn:hover{
+    -fx-background-color: #ae54a8;
+}
+
+.delete-btn{
+    -fx-background-color: #86292d;
+    -fx-background-radius: 8px;
+    -fx-text-fill:#fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+
+.delete-btn:hover{
+    -fx-background-color: #b52647;
+}
+
+.search{
+    -fx-background-color:linear-gradient(to bottom, #efefef, #eee);
+    -fx-border-color: linear-gradient(to bottom right, #127bc0, #053da1);
+    -fx-font-size:14px;
+    -fx-font-family: "Tahoma";
+    -fx-border-width:2px;
+    -fx-padding: 0px 0px 0px 20px;
+    -fx-border-radius: 5px;
+}
+.search:focused{
+    -fx-border-width:3px;
+}
+
+.table{
+    -fx-background-color: transparent;
+    -fx-padding:0px 0px 0px 0px;
+    -fx-border-color:linear-gradient(to bottom right, #127bc0, #243e6b);
+    -fx-border-radius:8px;
+    -fx-border-width:2px;
+}
+
+.table .column-header-background{
+    -fx-background-color:linear-gradient(to bottom right, #f1a42e, #d24500);
+    -fx-background-radius:8px 8px 0px 0px;
+}
+
+.table .column-header, .filter{
+    -fx-background-color:transparent;
+    -fx-size:40px;
+}
+
+.table .column-header .label{
+    -fx-text-fill:#fff;
+    -fx-font-family:"Arial";
+}
+
+
+

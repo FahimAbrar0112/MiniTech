@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" styleClass="left-form" stylesheets="@Background.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.basic.HelloController">
+   <children>
+      <AnchorPane layoutX="560.0" prefHeight="720.0" prefWidth="720.0" style="-fx-background-color: #eee;">
+         <children>
+            <Button fx:id="User" alignment="CENTER" layoutX="171.0" layoutY="242.0" mnemonicParsing="false" onAction="#UserPress" prefHeight="100.0" prefWidth="334.0" styleClass="Button_Dark_blue" stylesheets="@Button.css" text="USER" textFill="#000000e8" AnchorPane.leftAnchor="171.0" AnchorPane.rightAnchor="215.0">
+               <font>
+                  <Font name="Arial Black" size="29.0" />
+               </font>
+            </Button>
+            <Button fx:id="Admin" layoutX="172.0" layoutY="360.0" mnemonicParsing="false" onAction="#AdminPress" prefHeight="92.0" prefWidth="334.0" styleClass="Button_Dark_blue" stylesheets="@Button.css" text="ADMIN" AnchorPane.leftAnchor="172.0" AnchorPane.rightAnchor="214.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <FontAwesomeIcon glyphName="USER" layoutX="232.0" layoutY="316.0" selectionFill="#731b1b" size="5em" text="" />
+            <FontAwesomeIcon glyphName="USER" layoutX="232.0" layoutY="430.0" selectionFill="#731b1b" size="5em" text="" />
+         </children>
+      </AnchorPane>
+      <Circle fill="#2a3540" layoutX="174.0" layoutY="277.0" radius="130.0" stroke="BLACK" strokeType="INSIDE" />
+      <FontAwesomeIcon glyphName="DESKTOP" layoutX="159.0" layoutY="467.0" size="25em" />
+      <Label layoutX="193.0" layoutY="500.0" prefHeight="106.0" prefWidth="281.0" text="MINITECH" textFill="#020302">
+         <font>
+            <Font name="Comic Sans MS" size="45.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,5 @@
+.bodybg
+{
+    -fx-background-image: url("gooseKeeper.png");
+    -fx-background-size: 100% 100%;
+}
